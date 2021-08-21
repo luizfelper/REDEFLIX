@@ -1,11 +1,34 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import Tmdb from './components/Tmdb'
 
 
-// export default() => {} Pode criar uma função também com ArrowFunction
-export default function Home(){
+export default () => {
+
+
+  const [movieList, setMovieList] = useState([]);
+
+  useEffect(()=> {
+    const loadAll = async () => {
+      // Pegando a lista TOTAL
+      let list = await Tmdb.getHomeList();
+      setMovieList(list);
+    }
+
+    loadAll();
+  }, []);
+
   return (
-    <div>
-      Olá Mundo!
+    <div className="page">
+      {/* Header */}
+      <section className="lists">
+        {movieList.map((item, key)=>(
+          <div>
+            {item.title}
+          </div>
+        ))}
+      </section>
+{/*   As listas
+      Rodapé */}
     </div>
   );
 }
