@@ -63,7 +63,7 @@ export default () => {
       <footer>
         Feito a base de <span role="img" aria-label="força">☕</span> por Felipe Fontenele.<br/>
         Direitos de imagem para Netflix<br/>
-        Dados obtidos do site Themoviedb.org.
+        Dados obtidos via API do site Themoviedb.org.
       </footer>
 
     </div>
