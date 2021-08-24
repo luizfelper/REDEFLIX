@@ -47,7 +47,10 @@ export default function Home() {
       window.removeEventListener('scroll', scrollListener);
     }
   }, []);
+  
 
+  // Criação das variaveis do componente comentários
+ 
   return (
     <div className="page">
       <Header black={blackHeader} />
@@ -61,9 +64,12 @@ export default function Home() {
           <MovieRow key={key} title={item.title} items={item.items}/>
         ))}
       </section>
-      
-        <Comentarios />
-        <Footer />
+
+      <section className="sessão-comments">
+        <Comentarios/>
+      </section>
+
+      <Footer />
 
 
       {movieList.length <= 0 &&
