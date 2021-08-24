@@ -25,10 +25,8 @@ export default function Comentarios(propriedades) {
                     {pessoasComentarios.map((itemAtual) => {
                         return (
                             <li>
-                                <a href={`/users/${itemAtual}`} key={itemAtual}>
-                                    <img src={`https://github.com/${itemAtual}.png`} />
-                                    <span>{itemAtual}</span>
-                                </a>
+                                <a href={`/users/${itemAtual}`} key={itemAtual}><img src={`https://github.com/${itemAtual}.png`} /></a>
+                                <span>@{itemAtual}</span>
                             </li>
                             )
                     })}

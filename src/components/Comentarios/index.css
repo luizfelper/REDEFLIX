@@ -15,23 +15,26 @@
     height: auto;
     text-align: left;
     padding: 30px;
-    
 }
 
 .comments--comments ul {
     list-style: none;
+   
 }
 .comments--comments li {
-    width: 500px;
-    height: auto;
-    display: inline-block;
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
 }
 .comments--comments span {
-    
+    font-size: 12px;
+    margin-left: 10px;
 }
 .comments--comments img {
     width: 50px;
     height: 50px;
+    border-radius: 5px;
+    float: left;
 }
 
 
