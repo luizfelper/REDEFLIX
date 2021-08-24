@@ -12,9 +12,7 @@
 }
 .comments--usercoments {
     width: 100%;
-    height: auto;
     text-align: left;
-    padding: 30px;
 }
 
 .comments--comments ul {
