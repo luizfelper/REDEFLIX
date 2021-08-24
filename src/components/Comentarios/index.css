@@ -1,0 +1,18 @@
+.comments {
+    width: 500px;
+    height: auto;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    text-align: center;
+    color: black;
+    margin: 0 auto;
+}
+.comments--title {
+    padding:15px;
+}
+.comments--usercoments {
+    width: inherit;
+    height: 300px;
+    border-top: 1px solid rgb(204, 204, 204);
+}
+

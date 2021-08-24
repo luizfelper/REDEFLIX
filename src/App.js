@@ -4,9 +4,11 @@ import Tmdb from './components/Tmdb';
 import MovieRow from './components/MovieRow';
 import FeaturedMovie from './components/FeaturedMovie';
 import Header from './components/Header';
+import Comentarios from './components/Comentarios';
+import Footer from './components/Footer';
 
 
-export default () => {
+export default function Home() {
 
 
   const [movieList, setMovieList] = useState([]);
@@ -60,11 +62,9 @@ export default () => {
         ))}
       </section>
       
-      <footer>
-        Feito a base de <span role="img" aria-label="força">☕</span> por Felipe Fontenele.<br/>
-        Direitos de imagem para Netflix<br/>
-        Dados obtidos via API do site Themoviedb.org.
-      </footer>
+        <Comentarios />
+        <Footer />
+
 
       {movieList.length <= 0 &&
         <div className="loading">
