@@ -59,7 +59,13 @@ export default () => {
           <MovieRow key={key} title={item.title} items={item.items}/>
         ))}
       </section>
-      {/* Rodapé */}
+      
+      <footer>
+        Feito a base de <span role="img" aria-label="força">☕</span> por Felipe Fontenele.<br/>
+        Direitos de imagem para Netflix<br/>
+        Dados obtidos do site Themoviedb.org.
+      </footer>
+
     </div>
   );
 }
