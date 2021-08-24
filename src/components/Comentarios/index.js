@@ -26,7 +26,10 @@ export default function Comentarios(propriedades) {
                         return (
                             <li>
                                 <a href={`/users/${itemAtual}`} key={itemAtual}><img src={`https://github.com/${itemAtual}.png`} /></a>
-                                <span>@{itemAtual}</span>
+                                    <div className="comments--dados">
+                                        <span>@{itemAtual}</span>
+                                        <p>Comentário de {itemAtual}</p>
+                                    </div>
                             </li>
                             )
                     })}
