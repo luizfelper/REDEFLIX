@@ -3,13 +3,30 @@
     height: auto;
     background-color: #f4f4f4;
     border-radius: 4px;
-    text-align: center;
+    /*text-align: center;*/
     color: black;
     margin: 0 auto;
 }
 .comments--title {
     padding:15px;
+    border-bottom: 1px solid #cfcfcf;
 }
+.comments--title h3 {
+    text-align: center;
+}
+
+.comments--form {
+    display: block;
+
+}
+.comments--form input {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    margin-bottom: 4px;;
+}
+
 .comments--usercoments {
     width: 100%;
     text-align: left;
@@ -50,4 +67,6 @@
 .comments--dados {
     flex-grow: 2;
 }
+
+
 
