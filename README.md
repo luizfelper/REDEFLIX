@@ -1,6 +1,10 @@
 # Streaming de video Rede Flix.
 
+Veja o projeto online aqui: https://redeflix.vercel.app
+
+## Desenvolvido com?
 Esse projeto foi criado com [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
