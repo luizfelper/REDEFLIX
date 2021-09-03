@@ -1,4 +1,5 @@
 # Streaming de video Rede Flix.
+<img src="https://repository-images.githubusercontent.com/398018247/17313c65-9fbf-487d-9351-26f2db31812e" />
 
 Veja o projeto online aqui: https://redeflix.vercel.app
 
